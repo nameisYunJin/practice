@@ -1,0 +1,32 @@
+
+
+
+
+
+
+.top {
+  background: red;
+  width: 400px;
+  height: 200px;
+}
+
+.left {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.right {
+  background: green;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.bottom {
+  background: purple;
+  width: 400px;
+  height: 200px;
+  clear: both;
+}

@@ -1,0 +1,16 @@
+
+
+p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.panda {
+  margin-bottom: 2rem;
+  background-color: aqua;
+}
+
+.child {
+  margin-top: 1rem;
+  background-color: blue;
+}

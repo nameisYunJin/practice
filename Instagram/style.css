@@ -91,6 +91,19 @@ body {
   justify-content: space-around;
 }
 
+.top-left span {
+  cursor: pointer;
+}
+
+#fill-heart {
+  display: none;
+  fill: red
+}
+
+.top-left span:nth-of-type(1):hover{
+  color: red;
+}
+
 .top-center {
   grid-area: top-center;
   display: flex;

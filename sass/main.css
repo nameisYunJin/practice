@@ -1,5 +1,17 @@
+@charset "UTF-8";
+/* 반복문, 가정문(조건문), 변수: 배열, 오브젝트 */
 .box {
-  width: 50px;
-  height: 100px;
-  border: 1px solid red;
+  background-color: orange;
+}
+
+.box {
+  background-color: blue;
+}
+
+.box {
+  background-color: red;
+}
+
+.box {
+  background-color: yellow;
 }/*# sourceMappingURL=main.css.map */

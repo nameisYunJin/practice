@@ -2,7 +2,7 @@ body {
   margin: 20px;
 }
 
-.box {
+#box {
   width: 100px;
   height: 100px;
   background-image: url(../assets/AA10bnPf.jpeg);
@@ -12,12 +12,13 @@ body {
   border-radius: 14px;
   position: relative;
   overflow: hidden;
+  transition: all 1s;
 }
 
-.box-overloay {
+/* .box-overloay {
   width: 100px;
   height: 100px;
-  /* background-color: black; */
+  background-color: black;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -28,17 +29,18 @@ body {
   opacity: 0;
   border-radius: 14px;
   background-color: blue;
-  /* transition: all 1s; */
+  transition: all 1s;
   transition: all 0.5s ease-in-out;
-}
+} */
 
-.box-overloay p {
+/* .box-overloay p {
   margin: 0px;
   font-size: 10px;
   color: white;
   font-weight: bold;
-}
+} */
 
-.box:hover .box-overloay {
+/* #box:hover .box-overloay {
   opacity: 1;
-}
+}  */
+

@@ -7,11 +7,38 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="box">
-    <div class="box-overloay">
+  <div id="box">
+    <!-- <div class="box-overloay">
       <p>윤진</p>
       <p>010-3333-3333</p>
-    </div>
+    </div> -->
   </div>
+
+  <div id="box2" style="width: 100px; height: 100px; background-color: red;"></div>
+
+  <script>
+    //1. js는 태초부터 웹 ui를 제어하기 위한 언어였다.
+    /* 1. js로 제어하고 싶은 html태그를 선택
+      2. 어떤 이벤트가 발생했을 때 제어할 것인지 선택
+      3. css를 변경
+    */ 
+
+
+    var 박스 = document.getElementById("box");
+    var 두번째박스 = document.getElementById("box2");
+
+    박스.addEventListener("mouseover", function () {
+      두번째박스.style.width = "200px";
+    });
+
+    박스.addEventListener("mouseout", function () {
+      두번째박스.style.width = "100px";
+    });
+
+
+  </script>
+
+
+
 </body>
 </html>

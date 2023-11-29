@@ -10,7 +10,7 @@
   <h1>제목입니다.</h1>
   <p>내용입니다.</p>
   <button>수정하기</button>
-  <button>삭제하기</button>
+  <button onclick="모달창열기()">삭제하기</button>
 
   <div class="modalDiv">
     <div class="bg"></div>
@@ -29,7 +29,14 @@
    2. css로 숨긴다.
    3. js로 다시 나타내게 한다.
    */
-  
+
+   function 모달창열기(){
+    var 모달 = document.querySelector(".modalDiv");
+    모달.style.display = "block";
+   };
+
+
+
 
 
   </script>

@@ -7,33 +7,29 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="box">
-    <!-- <div class="box-overloay">
-      <p>윤진</p>
-      <p>010-3333-3333</p>
-    </div> -->
+  <h1>제목입니다.</h1>
+  <p>내용입니다.</p>
+  <button>수정하기</button>
+  <button>삭제하기</button>
+
+  <div class="modalDiv">
+    <div class="bg"></div>
+    <div class="modal">
+      <p>정말 삭제하시겠습니까?</p>
+      <button>취소</button>
+      <button>삭제</button>
+    </div>
   </div>
 
-  <div id="box2" style="width: 100px; height: 100px; background-color: red;"></div>
-
+  
+  
   <script>
-    //1. js는 태초부터 웹 ui를 제어하기 위한 언어였다.
-    /* 1. js로 제어하고 싶은 html태그를 선택
-      2. 어떤 이벤트가 발생했을 때 제어할 것인지 선택
-      3. css를 변경
-    */ 
-
-
-    var 박스 = document.getElementById("box");
-    var 두번째박스 = document.getElementById("box2");
-
-    박스.addEventListener("mouseover", function () {
-      두번째박스.style.width = "200px";
-    });
-
-    박스.addEventListener("mouseout", function () {
-      두번째박스.style.width = "100px";
-    });
+   /*
+   1. html/css ui를 만든다.
+   2. css로 숨긴다.
+   3. js로 다시 나타내게 한다.
+   */
+  
 
 
   </script>

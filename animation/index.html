@@ -7,40 +7,6 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>제목입니다.</h1>
-  <p>내용입니다.</p>
-  <button>수정하기</button>
-  <button onclick="모달창열고닫기('block')">삭제하기</button>
-
-  <div class="modalDiv">
-    <div class="bg" onclick="모달창열고닫기('none')"></div>
-    <div class="modal">
-      <p>정말 삭제하시겠습니까?</p>
-      <button onclick="모달창열고닫기('none')">취소</button>
-      <button>삭제</button>
-    </div>
-  </div>
-
-  
-  
-  <script>
-   /*
-   1. html/css ui를 만든다.
-   2. css로 숨긴다.
-   3. js로 다시 나타내게 한다.
-
-   Dry : don't repeat your code
-   */
-
- 
-   function 모달창열고닫기(인자) {
-    var 모달 = document.querySelector(".modalDiv");
-    모달.style.display = 인자;
-   }
-
-  </script>
-
-
-
+<div class="box"></div>
 </body>
 </html>

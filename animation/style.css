@@ -1,29 +1,12 @@
-body, p {
-  margin: 0px;
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  transform: translateY(100px);
+  transition: all 1s ease-in-out;
 }
 
-.modalDiv {
-  display: none;
+.box:hover {
+  transform: translateY(0px);
 }
 
-
-.bg {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0,.5);
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.modal {
-  position: absolute;
-  z-index: 10;
-  background-color: white;
-  width: 50%;
-  left: 25%;
-  top: 25%;
-  padding: 20px;
-  border-radius: 14px;
-}
